@@ -13,7 +13,7 @@ NetSpeedFox is a tool that monitors your internet speed and sends an email alert
 1. **Clone the Repository:**
 
     ```sh
-    git clone https://github.com/yourusername/speedsleuth.git
+    git clone https://github.com/prabirsh/NetSpeedFox.git
     ```
 
 2. **Install Required Libraries:**
