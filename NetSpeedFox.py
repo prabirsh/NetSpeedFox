@@ -6,7 +6,6 @@ import schedule
 import time
 import json
 
-# Load configuration
 with open('config.json') as config_file:
     config = json.load(config_file)
 
@@ -15,7 +14,6 @@ from_password = config["from_password"]
 to_email = config["to_email"]
 speed_threshold = config["speed_threshold"]
 
-# Extract recipient's first name from the email
 recipient_name = to_email.split('@')[0].split('.')[0].capitalize()
 
 def send_email(download_speed):
@@ -23,13 +21,12 @@ def send_email(download_speed):
     body = f"""\
     Hi {recipient_name},
 
-    Looks like your internet is taking a little coffee break! ☕️ Your current download speed is {download_speed:.2f} Mbps, which is below the threshold of {speed_threshold} Mbps that you set.
+    Looks like your internet is taking a little coffee break! ☕️ Your current download speed is {download_speed:.2f} Mbps, 
+    which is below the threshold of {speed_threshold} Mbps that you set.
 
-    You might want to give your internet a pep talk or maybe even a little nudge. 🏃‍♂️💨
+    Your internet might need a little boost. 🏃‍♂️💨
 
-    Remember, slow internet is like a bad haircut – it’s annoying and makes everything else look worse. 😂
-
-    Stay connected and speedy,
+    Stay connected,
     NetSpeedFox
     """
 
