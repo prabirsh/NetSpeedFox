@@ -5,7 +5,7 @@ NetSpeedFox is a tool that monitors your internet speed and sends an email alert
 ## Features
 
 - Monitors your internet speed every minute.
-- Sends a personalized and funny email alert if the download speed drops below the configured threshold.
+- Sends a personalized email alert if the download speed drops below the configured threshold.
 - Easy configuration through a setup script.
 
 ## Installation
