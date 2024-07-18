@@ -90,14 +90,3 @@ The `config.json` file stores your email details and speed threshold. You can ed
 
 - Email Not Sent: Make sure you have allowed less secure apps to access your email account if you are using Gmail. You can enable this in your Google account settings.
 - Incorrect Speed Readings: Ensure that your internet connection is stable and try running the script again.
-
-
-### Explanation
-
-1. **Introduction**: The NetSpeedFox tool monitors your internet speed and will send you an email if it falls below a specified threshold.
-2. **Installation**: Instructions for cloning the repository and installing required libraries.
-3. **Setup**: Step-by-step guide for running the setup script to configure email settings and speed threshold.
-4. **Google Account Password Retrieval Instructions**: Detailed steps for obtaining the app-specific password from Google.
-5. **Usage**: Instructions for running the NetSpeedFox script.
-6. **Configuration**: Details about the configuration file name as `config.json`.
-7. **Troubleshooting**: Common issues and solutions.
