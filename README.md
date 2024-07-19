@@ -52,7 +52,7 @@ NetSpeedFox is a tool that monitors your internet speed and sends an email alert
         "speed_threshold": 5
     }
     ```
-## Google Account Password Retrieval Instructions
+## Google Account App-Specific Password Retrieval Instructions
 
 To obtain the email password, follow these steps:
 - Open your Gmail account and click on 'Manage Google Account.'
